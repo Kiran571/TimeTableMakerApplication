@@ -46,7 +46,7 @@ const Footer = () => {
                                 </ul>
                             </div>
 
-                            <div className="col-6 col-lg-2">
+                            {/* <div className="col-6 col-lg-2">
                                 <h2>Feedback</h2>
                                 <ul>
                                     <li>
@@ -57,7 +57,7 @@ const Footer = () => {
                                     </li>
                                    
                                 </ul>
-                            </div>
+                            </div> */}
 
                             <div className="col-6 col-lg-2">
                                 <h2>Follow Us</h2>
@@ -78,7 +78,11 @@ const Footer = () => {
                                     <div className="col-4 mx-auto">    
                                         <i className="fab fa-twitter fontawesome-style"></i>
                                     </div>
-                                    
+                                    <div className="col-4 mx-auto">
+                                        <a href="https://github.com/Kiran571/">
+                                            <i className="fab fa-github fontawesome-style"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

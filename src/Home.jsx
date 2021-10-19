@@ -6,9 +6,8 @@ import Common from './Common';
 const Home = () => {
     return (
       <>
-        <Common name="A Perfect Timetable don't CHANGE itself, It changes the person according to it! 
-        " imgsrc={web} visit="/contact" btname="Get Started"/>
-       
+        <Common name="A Perfect Timetable don't CHANGE itself, It changes the person according to it!"
+        imgsrc={web} visit="/contact" btname="Get Started" />       
       </>
     )
 }

@@ -1,6 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap');
 
+/* 
+@import '../../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-react-buttons/styles/material.css'; */
+
+
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-calendars/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-schedule/styles/material.css";
+
+
+
 * {
     margin: 1px;
     padding: 1px;
@@ -38,8 +56,8 @@ h6 {
 
 #header {
     width: 100%;
-    height: 140vh;
-    margin-top: 70px;
+    height: 80vh;
+    margin-top: 80px;
 }
 
 #header h1 {
@@ -112,20 +130,20 @@ h6 {
 .navbar-bg {
     background-color: var(--bgcolor);
     padding: 2px 1rem; 
-    border-radius: 18px;
-    z-index: 100;
-    position: relative;
+    border-radius: 18px ;
+    z-index: 100 ;
+    position: relative ;
 }
 
 /*Dashboard*/
 .navbar-brand {
-    font-size: 3rem !important;  
-    color: rgb(122, 68, 122) !important;
+    font-size: 3.5rem !important;  
+    color: rgb(13, 129, 175) !important;
 }
 
-.navbar {
-    background-color: grey !important;
-}
+/* .navbar {
+    background-color: rgb(182, 176, 176);
+} */
 
 .navbar a {
     font-size: 1.3rem;
@@ -165,6 +183,7 @@ h6 {
     background-color: var(--primary-color);
     text-transform: capitalize;
     font-size:  2rem;
+    padding: 0 0 1px;
 }
 
 .btn-style:first-child {
@@ -182,7 +201,8 @@ h6 {
     border:0.1rem solid var(--primary-color);
     background-color: transparent;
     color: var(--primary-color);
-    box-shadow: 0 0.2rem 0.5rem hsla(0, 0%, 97%, 0.514);
+    box-shadow: 0 0.2rem 0.5rem hsla(0, 19%, 82%, 0.514);
+    padding: 1rem;
 }
 
 .btn-style-border:hover {

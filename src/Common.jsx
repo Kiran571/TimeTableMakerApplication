@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import web from "../src/images/img2.jpg";
 
+
 const Common = (props) => {
     return (
       <>
@@ -17,12 +18,12 @@ const Common = (props) => {
                                     We are here to schedule your time!!
                                 </h2>
                                 <div className="mt-3">
-                                    <NavLink to="" className="btn-get-started">{props.btname}</NavLink>                                        
+                                    <NavLink to={props.visit} className="btn-get-started">{props.btname}</NavLink>                                        
                                 </div>
                             </div>
                         
                             <div className="col-lg-5 order-1 order-lg-2 header-img">                                                       
-                                <img src= {props.imgsrc} className="img-fluid animated " alt= "home img" />                                                            
+                                <img src= {props.imgsrc} className="img-fluid animated " alt= "Common img" />                                                            
                             </div>
                         </div> 
                         
