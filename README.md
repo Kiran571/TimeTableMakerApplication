@@ -18,7 +18,7 @@ To deploy this project run
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](file:///C:/Users/Kiran%20Suryawanshi/Pictures/Screenshot/timetablemaker-1.jpg)
 
 
 
