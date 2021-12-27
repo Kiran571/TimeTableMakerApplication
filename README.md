@@ -18,7 +18,7 @@ To deploy this project run
 
 ## Screenshots
 
-![App Screenshot](file:///C:/Users/Kiran%20Suryawanshi/Pictures/Screenshot/timetablemaker-1.jpg)
+![App Screenshot]
 
 
 
@@ -26,4 +26,6 @@ To deploy this project run
 
 [Documentation](https://linktodocumentation)
 
+
+![timetablemaker-1](https://user-images.githubusercontent.com/66951707/147447910-8eed96b6-d5b5-4584-9cbf-bf33e9901d8a.jpg)![timetablemaker-event add](https://user-images.githubusercontent.com/66951707/147447912-a0660610-1a31-4770-b7e0-6c3418949888.jpg)
 
